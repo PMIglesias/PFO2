@@ -5,7 +5,7 @@ Este proyecto es una **evolución del Trabajo Práctico 1 (PFO 1)**, un portafol
 ## Descripción
 El portafolio presenta información sobre Alex Code, sus proyectos, habilidades, un formulario de contacto, y una lista de películas favoritas. Está alojado en GitHub Pages y utiliza Flexbox, CSS Grid, Google Fonts, animaciones, y JavaScript para interactividad.
 
-Visita el proyecto en GitHub Pages: [PF01](https://pmiglesias.github.io/PFO1/)
+Visita el proyecto en GitHub Pages: [PF02](https://pmiglesias.github.io/PFO2/)
 
 ## Funcionalidades Implementadas con JavaScript
 
@@ -63,3 +63,5 @@ Visita el proyecto en GitHub Pages: [PF01](https://pmiglesias.github.io/PFO1/)
 ## Notas
 - El formulario no tiene backend, solo frontend con validación y pop-up.
 - Las capturas de pantalla se incluirán tras implementar los cambios para comparar el diseño anterior y el actualizado.
+- **Títulos en Blanco en Modo Oscuro**: Se actualizó el modo oscuro para que todos los títulos (`h1` a `h6`) sean blancos (`#ffffff`), mejorando el contraste y la legibilidad en entornos oscuros.
+
