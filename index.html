@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado con título principal -->
+    <header id="header">
+        <h1>Portafolio de Alex Code</h1>
+    </header>
+    <button id="theme-toggle">Cambiar Tema</button>
+    <!-- Barra de navegación -->
+    <nav id="nav">
+        <ul>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy Alex, un apasionado desarrollador web con interés en crear soluciones digitales innovadoras. Mi misión es construir interfaces intuitivas y accesibles, combinando creatividad y tecnología. Me encanta aprender nuevas herramientas y enfrentar desafíos técnicos.</p>
+            <img src="./img/profile.jpg" alt="Avatar de Alex Code" class="profile-img">
+            <!-- Idea de mejora: Agregar un efecto de fade-in para la imagen -->
+        </section>
+
+        <!-- Sección de Tarjetas/Proyectos -->
+        <section id="tarjetas">
+            <h2>Mis Proyectos</h2>
+            <div class="tarjetas-container"></div>
+        </section>
+        <!-- Sección de Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <table>
+                <tr>
+                    <th>Tecnologías Dominadas</th>
+                    <th>Tecnologías por Aprender</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td>React, Node.js</td>
+                    <td>Fotografía, Ajedrez</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                <button type="submit">Enviar</button>
+            </form>
+            <!-- Idea de mejora: Agregar validación de formulario con JS -->
+        </section>
+        <!-- Sección de Películas -->
+        <section id="películas">
+            <h2>Mis Películas Favoritas</h2>
+            <div class="peliculas-container">
+                <div class="pelicula">
+                    <h3>Interestelar</h3>
+                    <div class="img-container">
+                        <img src="./img/interstellar.jpg" alt="Póster de Interestelar">
+                    </div>
+                    <p>Una obra maestra de la ciencia ficción que explora el tiempo y el espacio.</p>
+                </div>
+                <div class="pelicula">
+                    <h3>El Padrino</h3>
+                    <div class="img-container">
+                        <img src="./img/El_padrino.jpg" alt="Póster de El Padrino">
+                    </div>
+                    <p>Un clásico sobre poder y familia, con actuaciones inolvidables.</p>
+                </div>
+                <div class="pelicula">
+                    <h3>Matrix</h3>
+                    <div class="img-container">
+                        <img src="./img/the_matrix.jpg" alt="Póster de Matrix">
+                    </div>
+                    <p>Revolucionó el género con su mezcla de acción y filosofía.</p>
+                </div>
+            </div>
+            <!-- Idea de mejora: Agregar un carrusel para las películas -->
+        </section>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <h3>¡Formulario Enviado!</h3>
+                <p>Gracias por contactarme, te responderé pronto.</p>
+                <button id="close-popup">Cerrar</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer">
+        <p>Conéctate conmigo:</p>
+        <ul>
+            <li><a href="https://github.com"><i class="fab fa-github"></i> GitHub</a></li>
+            <li><a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        </ul>
+        <p>&copy; 2025 Alex Code</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
